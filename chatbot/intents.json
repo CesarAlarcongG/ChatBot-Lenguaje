@@ -1,0 +1,230 @@
+[
+  {
+    "name": "saludo",
+    "examples": [
+      "Hola",
+      "Buenos días",
+      "Buenas tardes",
+      "Buenas noches",
+      "¿Hola?",
+      "¿Hay alguien ahí?",
+      "Hola, ¿me puedes ayudar?",
+      "Hola, ¿cómo estás?",
+      "Hola, ¿qué tal?",
+      "Hey",
+      "Saludos",
+      "Qué tal",
+      "Holita",
+      "Holaaa",
+      "Buen día"
+    ],
+    "response": "¡Hola! ¿En qué puedo ayudarte hoy?"
+  },
+  {
+    "name": "despedida",
+    "examples": [
+      "Adiós",
+      "Gracias, eso era todo",
+      "Nos vemos",
+      "Hasta luego",
+      "Chao",
+      "Hasta pronto",
+      "Hasta la próxima",
+      "Me voy",
+      "Eso era todo",
+      "Nos hablamos luego"
+    ],
+    "response": "¡Hasta luego! Si tienes más preguntas, no dudes en volver."
+  },
+  {
+    "name": "agradecimiento",
+    "examples": [
+      "Gracias",
+      "Muchas gracias",
+      "Te agradezco la información",
+      "Muy amable",
+      "Gracias por tu ayuda",
+      "Agradezco tu apoyo",
+      "Gracias por responder",
+      "Mil gracias",
+      "Estoy agradecido",
+      "Gracias por todo"
+    ],
+    "response": "¡De nada! Estoy para ayudarte 😊"
+  },
+  {
+    "name": "ayuda_general",
+    "examples": [
+      "Necesito ayuda",
+      "¿Qué puedes hacer?",
+      "¿En qué me puedes ayudar?",
+      "Ayúdame por favor",
+      "No sé qué preguntar",
+      "¿Qué información tienes?",
+      "¿Qué servicios ofreces?",
+      "¿Qué temas manejas?",
+      "¿En qué temas me puedes orientar?"
+    ],
+    "response": "Puedo ayudarte con temas como matrícula, pagos, requisitos de ingreso y más. Pregúntame lo que necesites."
+  },
+  {
+    "name": "contacto",
+    "examples": [
+      "¿Dónde puedo contactar con ustedes?",
+      "Número de contacto",
+      "Correo de soporte",
+      "Teléfono de atención",
+      "Contacto",
+      "¿Cómo me comunico con ustedes?",
+      "¿Cuál es su número de teléfono?",
+      "¿Cómo los contacto?",
+      "¿Tienen algún correo de contacto?"
+    ],
+    "response": "Puedes contactarnos al correo soporte@instituto.edu.pe o al teléfono (01) 234-5678."
+  },
+  {
+    "name": "ubicacion",
+    "examples": [
+      "¿Dónde están ubicados?",
+      "Dirección del instituto",
+      "Ubicación",
+      "¿Dónde queda la sede?",
+      "¿Dónde está la institución?",
+      "¿Cuál es su dirección?",
+      "¿Dónde se encuentran?",
+      "¿Dónde puedo encontrarlos físicamente?"
+    ],
+    "response": "Nuestra sede principal está en Av. Universitaria 1234, Lima, Perú."
+  },
+  {
+    "name": "horario_atencion",
+    "examples": [
+      "¿Cuál es su horario?",
+      "¿A qué hora atienden?",
+      "Horario de atención al cliente",
+      "¿Cuáles son sus horas de atención?",
+      "Horario de atención",
+      "¿Cuándo puedo comunicarme?",
+      "¿Están disponibles los sábados?",
+      "¿Atienden los fines de semana?"
+    ],
+    "response": "Atendemos de lunes a viernes de 8:00 a.m. a 5:00 p.m."
+  },
+  {
+    "name": "inicio_matricula",
+    "examples": [
+      "¿Cuándo inicia la matrícula?",
+      "¿Desde cuándo puedo inscribirme?",
+      "Inicio del proceso de matrícula",
+      "¿Cuándo comienzan las inscripciones?",
+      "¿Cuándo empieza la matrícula?",
+      "¿Desde qué fecha puedo matricularme?",
+      "¿Hasta cuándo tengo para matricularme?",
+      "¿Cuál es la fecha límite para inscribirme?",
+      "¿Cuándo termina la matrícula?",
+      "¿Hay fecha límite para matricularme?"
+    ],
+    "response": "La matrícula inicia el 5 de enero y dura hasta el 15 de febrero."
+  },
+  {
+    "name": "proceso_matricula",
+    "examples": [
+      "¿Cuáles son los pasos para matricularme?",
+      "Cómo me matriculo",
+      "Guía para inscripción",
+      "Proceso de matrícula paso a paso",
+      "Ayuda con el proceso de matrícula",
+      "¿Qué debo hacer para inscribirme?",
+      "¿Cómo es el proceso de matrícula?",
+      "¿Cómo me inscribo?",
+      "Pasos para inscribirme"
+    ],
+    "response": "Para matricularte, debes ingresar al portal, iniciar sesión y completar el formulario."
+  },
+  {
+    "name": "lugar_matricula",
+    "examples": [
+      "¿Dónde hago la matrícula?",
+      "¿Dónde me inscribo?",
+      "¿Es presencial o virtual la matrícula?",
+      "¿Dónde puedo registrarme?",
+      "¿Dónde se realiza la matrícula?",
+      "¿Dónde se hace la inscripción?",
+      "¿Cómo accedo a la plataforma de matrícula?"
+    ],
+    "response": "La matrícula se realiza de forma virtual a través de la plataforma web."
+  },
+  {
+    "name": "formas_pago",
+    "examples": [
+      "¿Cómo pago la pensión?",
+      "Formas de pago disponibles",
+      "¿Qué métodos de pago aceptan?",
+      "¿Dónde puedo pagar?",
+      "¿Dónde se paga la cuota?",
+      "¿Cuáles son las opciones de pago?",
+      "¿Qué formas de pago tienen?",
+      "¿Puedo pagar en efectivo o tarjeta?"
+    ],
+    "response": "Puedes pagar con tarjeta, transferencia bancaria o en ventanilla."
+  },
+  {
+    "name": "pago_online",
+    "examples": [
+      "¿Se puede pagar online?",
+      "¿Puedo hacer el pago por internet?",
+      "¿Puedo pagar desde casa?",
+      "Pago virtual",
+      "¿Cómo pago en línea?",
+      "¿Puedo pagar con tarjeta online?",
+      "¿Aceptan pagos virtuales?"
+    ],
+    "response": "Sí, puedes pagar en línea desde el portal con tarjeta de débito o crédito."
+  },
+  {
+    "name": "cuotas_pago",
+    "examples": [
+      "¿Puedo pagar en cuotas?",
+      "¿Cuántas cuotas hay?",
+      "¿Cómo es el sistema de cuotas?",
+      "¿El pago es mensual?",
+      "¿Puedo dividir el pago?",
+      "¿Cuántas cuotas puedo hacer?",
+      "¿Hay fraccionamiento de pago?",
+      "¿Se puede pagar por partes?"
+    ],
+    "response": "Puedes dividir el pago en hasta 3 cuotas mensuales sin intereses."
+  },
+  {
+    "name": "documentos_matricula",
+    "examples": [
+      "¿Qué documentos debo llevar?",
+      "Papeles para inscribirme",
+      "¿Qué necesito presentar?",
+      "Documentación para matrícula",
+      "¿Qué documentos son necesarios?",
+      "¿Qué papeles necesito para matricularme?",
+      "¿Cuáles son los requisitos de documentación?",
+      "¿Qué debo adjuntar para matricularme?"
+    ],
+    "response": "Necesitarás tu DNI, certificado de notas y partida de nacimiento."
+  },
+  {
+    "name": "condiciones_ingreso",
+    "examples": [
+      "¿Cuáles son los requisitos para ingresar?",
+      "Requisitos para la matrícula",
+      "¿Qué necesito para poder estudiar?",
+      "¿Qué se necesita para ingresar?",
+      "Condiciones de ingreso",
+      "¿Qué requisitos debo cumplir?",
+      "¿Qué perfil necesito para ser admitido?"
+    ],
+    "response": "Debes haber terminado secundaria y contar con los documentos requeridos."
+  },
+  {
+    "name": "desconocido",
+    "examples": [],
+    "response": "Lo siento, no entendí tu pregunta. ¿Puedes reformularla?"
+  }
+]

@@ -1,0 +1,19 @@
+# Archivos de Python compilados
+__pycache__/
+*.pyc
+
+# Entornos virtuales
+venv/
+.env/
+
+# Archivos de configuración local
+*.sqlite3
+*.log
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno de Django
+db.sqlite3
+/staticfiles/
