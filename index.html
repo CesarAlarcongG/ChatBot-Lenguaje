@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chatbot Cliente</title>
+</head>
+<body>
+  <h1>Chat con el Bot</h1>
+  <input type="text" id="messageInput" placeholder="Escribe tu mensaje" />
+  <button onclick="enviarMensaje()">Enviar</button>
+
+  <h3>Respuesta del Bot:</h3>
+  <div id="respuesta"></div>
+
+  <script>
+    async function enviarMensaje() {
+      const mensaje = document.getElementById("messageInput").value;
+
+      const respuesta = await fetch("http://localhost:8000/api/chat/", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ message: mensaje }),
+      });
+
+      const data = await respuesta.json();
+      document.getElementById("respuesta").innerText = data.response || "Sin respuesta del servidor.";
+    }
+  </script>
+</body>
+</html>

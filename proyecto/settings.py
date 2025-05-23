@@ -38,10 +38,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'corsheaders',
     'chatbot'  # Your chatbot app
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -50,7 +53,21 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+# CORS configuration
+CORS_ALLOW_ALL_ORIGINS = True  # solo para pruebas. Usa CORS_ALLOWED_ORIGINS en producción.
 
+# Es para permitir el acceso a todos los orígenes. En producción, es mejor especificar los orígenes permitidos.
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:3000",  # ejemplo: frontend local
+#     "https://tu-frontend.com"
+# ]
+
+CORS_ALLOW_HEADERS = [
+    "content-type",
+    "authorization",
+    "x-csrftoken",
+    "x-requested-with"
+]
 ROOT_URLCONF = 'proyecto.urls'
 
 TEMPLATES = [

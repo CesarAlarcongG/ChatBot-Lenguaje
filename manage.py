@@ -25,9 +25,6 @@ def main():
 #Código para las dependencias de nltk
 
 def descargar_nltk_datos():
-    import os
-    import zipfile
-    import shutil
 
     # Convertimos a ruta absoluta basada en la ubicación del script
     base_dir = os.path.dirname(os.path.abspath(__file__))
